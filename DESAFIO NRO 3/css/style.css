@@ -1,0 +1,436 @@
+
+h1{
+    font-size: 42px;
+    text-align: center;
+}
+
+h2{
+    font-size: 34px;
+}
+
+h3{
+    font-size: 24px;
+}
+
+h4{
+    font-size: 16px;
+}
+
+sub{
+font-size: 18px;
+font-weight: 700;
+
+}
+p{
+    font-size: 14px;
+}
+
+a{
+    color: #cccccc;
+    text-decoration: none;
+}
+
+
+.botonPrimario{
+    width: auto;
+    height: 48px;
+    background-color: black;
+    color: white;
+    margin-top: 25px;
+}
+
+.logoDePagina{
+display: flex;
+padding: 25px;
+float: inline-start;
+margin-top: 15px;
+}
+
+.NavPrincipal{
+    display: flex;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+    list-style-type: none;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.itemNav{
+    margin-right: 50px;
+    text-decoration: none;
+    position: relative;
+    bottom: 50px;
+    left: 0px;
+}
+
+.iconoHeader{
+    display: flex;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+    list-style-type: none;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.iconoNav{
+    margin-right: 50px;
+    text-decoration: none;
+    position: relative;
+    bottom: 85px;
+    left: 630px;
+}
+
+.homeCategorias{
+display: flex;
+text-align: justify;
+}
+
+
+
+.cintilloDesktop{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 200px;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.textoCintilloDesktop{
+    color: white;
+    width: 1312px;
+    height: 200px;
+    padding-left: 801px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 63px;
+    background-image:  url(../img/cintilloDesktop.png);
+    background-repeat: no-repeat;
+} 
+
+.carouselBanner{
+    width: 1440px;
+    height: 500px;
+}
+
+.botonBanner{
+    width: auto;
+    height: 48px;
+    background-color: black;
+    color: white;
+    margin-top: 25px;
+}
+
+.contenedorCaja{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.caja1{
+    width: 421px;
+    height: 300px;
+    margin-right: 20px;
+    background-image: url(../img/boxMujer.png);
+    color: white;
+    padding-top: 130px;
+}
+
+.caja2{
+    width: 421px;
+    height: 300px;
+    margin-right: 20px;
+    background-image: url(../img/boxHombre.png);
+    color: white;
+    padding-top: 130px;
+}
+
+
+.caja3{
+    width: 421px;
+    height: 300px;
+    background-image: url(../img/boxNinos.png);
+    color: white;
+    padding-top: 130px;
+}
+
+
+.boxContactenos{
+max-width: 1440px;
+height: 386px;
+margin-bottom: 120px;
+display: flex;
+text-align: center;
+justify-content: center;
+flex-wrap: wrap;
+margin-left: 170px;
+margin-top: 20px;
+}
+
+.textoContactenos{
+    text-align: center;
+}
+
+.comoTePodemosAyudar{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    color: white;
+    margin-top: -348px;
+}
+
+.comprasOnline{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin-top: 200px;
+}
+
+.redesSociales{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.comprasEnTiendaFisica{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.boxQuienesSomos{
+max-width: 1312;
+height: 200px;
+margin-bottom: 120px;
+display: flex;
+text-align: center;
+justify-content: center;
+flex-wrap: wrap;
+margin-left: 170px;
+margin-bottom: 700px;
+margin-top: 25px;
+}
+
+.bienvenidosTitulo{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    color: white;
+    margin-top: -280px;
+}
+
+.encabezado{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin-top: 100px;
+}
+
+.reseñaDeMarca{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 50px; 
+}
+
+.cardProducto{
+    max-width: 200px;
+    margin-right: 77px;
+}
+
+.cardTituloProducto{
+    margin-top: 16px;
+}
+
+.tituloProductoDestacado{
+text-align: center;
+margin-bottom: 40px;
+}
+
+.contenedorProductoDestacados{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    justify-content: center;
+    margin-left: 25px;
+}
+
+.contenedorProducto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contenedorImagenProducto {
+    max-width: 747px;
+    height: auto;
+    margin-top: 35px;
+    }
+    
+.contenedorInfoProducto{
+width: 537px;
+height: auto;
+text-align: left;
+margin-top: 15px;
+}
+
+.botonTalla{
+    width: 33px;
+    height: 41px;
+    padding: 10px;
+    text-align: center;
+}
+
+.botonColor{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 60px;
+}
+
+.viñeta{
+    list-style-type: none;
+}
+
+.listCategorias{
+    margin-bottom: 16px;
+    margin-left: 0px;
+}
+
+.contenedorListCategorias{
+    margin-left: 60px;
+    max-width: 200px;
+    float: left;
+}
+
+@media screen and (max-width:992px) {
+    .contenedorListCategorias{
+       display: none;
+    }
+}
+
+.filtroMobile{
+ border-color: black;
+ border: solid;
+ width: 114px;
+ height: 41px;
+ margin-left: 12px;
+ background-color: white;
+ cursor: pointer;
+ font-size: 20px;
+ border: none;
+ display: flex;
+ justify-content: center;
+ position: absolute; right: 15px;
+ top: 125px; 
+}
+
+@media screen and (min-width:992px) {
+    .filtroMobile{
+    display: none;
+    }  
+}
+
+
+
+.productosGrid{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    justify-content: center;
+    margin-left: 25px;
+    width: 1190px;
+}
+
+.contenedorProductosGrid{
+display: flex;
+flex-wrap: wrap;
+max-width: 1200px;
+padding-left: 10%;
+}
+
+/* float para subir card*/
+
+.migaPanCategorias{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -60px;
+}
+
+
+.contenedorFooter{
+background-color: black;
+color: white;
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+list-style-type: none;
+justify-content: center;
+padding-top: 30px;
+}
+
+.logoFooter{
+margin-bottom: 16px;
+}
+
+.contenedorFooter1{
+width: 451px;
+margin-right: 150px;
+color: white;    
+}
+
+.footerColumna1{
+margin-right: 150px;
+color: white;
+}
+
+.centroDeAyuda{
+margin-right: 150px;
+}
+
+.creditosFooter{
+text-align-last: center;
+justify-items: center;
+margin-inline: 200px;
+}
+
+
+
+.carousel-caption{
+margin-bottom: 200px;
+padding-right: 70px;
+text-align: left;
+}
+
+.tituloCarousel {
+text-align: left;
+}
+    
+.buttonCarousel{
+background-color: black;
+color: white;
+width: 180px;
+height: 48px;
+}
+
+
+
+@media screen and (min-width:992px) {
+    .contenedorFooter{
+    display: none;
+    }  
+}

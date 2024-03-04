@@ -1,0 +1,35 @@
+body{
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: 80px auto 45px;
+grid-template-areas:
+"nav header header header"
+"nav main main main"
+"nav footer footer footer"
+;
+
+column-gap: 20px;
+row-gap:  20px;
+}
+
+
+header{
+background-color: aquamarine;
+grid-area: header;
+}
+
+nav{
+background-color: blue;
+grid-area: nav;
+}
+
+main{
+background-color: cornflowerblue;
+grid-area: main;
+}
+
+footer{
+background-color: darkorange;
+grid-area: footer;
+}
+
