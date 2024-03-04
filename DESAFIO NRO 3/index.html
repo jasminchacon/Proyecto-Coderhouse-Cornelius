@@ -9,15 +9,16 @@
 </head>
 <body>
 <header>
+  <!--Menu Desktop-->
+  <section class="menuDesktop">
 <nav>
-
   <section>
   <div class="logoDePagina">
   <a href="index.html"><img src="./img/Logo-text.png" alt="Logo de pagina"></a>
   </div>
   </section>
 
-    <nav>
+    <!--<nav>-->
     <section>
     <div class="navPrincipal">
       <li class="itemNav"><a href="./pagina/mujer.html">Mujer</a></li>
@@ -35,8 +36,44 @@
     <li class="iconoNav"><img src="./img/carro de compras.png" alt="carro de compras"></a></li> 
     </div>
     </section>
-
+  </section>
     </nav>
+
+  
+
+<!--Menu Mobile-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <img src="./img/Logo Isotipo.png">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./pagina/mujer.html">Mujer</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pagina/hombre.html">Hombre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pagina/ninos.html">Niños</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pagina/contactenos.html">Contactenos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pagina/quienes-somos.html">Quienes Somos</a>
+            </li>
+            <!--
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true"></a>
+            </li>-->
+          </ul>
+        </div>
+      </div>
+    </nav>
+
     </header>
     
           <div id="carouselBanner" class="carousel slide" data-bs-ride="carousel">
@@ -71,13 +108,26 @@
           </button>
           </div>
       
-
+<!-- Comienza Cintillo Destktop-->
         <section class="CintilloDesktop">
         <div class="textoCintilloDesktop">
         <a href="./pagina/ninos.html"><h2>Vuelta a la escuela</h2></a>
         <sub>¡Un comienzo a lo grande!</sub>
         </div>
         </section>
+<!-- Final Cintillo Destktop-->
+
+<!-- Comienza Cintillo Mobile-->
+<section class="CintilloMobile">
+  <div class="textoCintilloMobile">
+  <a href="./pagina/ninos.html"><h2>Vuelta a la escuela</h2></a>
+  <sub>¡Un comienzo a lo grande!</sub>
+  </div>
+  </section>
+<!-- Final Cintillo Mobile-->
+
+
+<!-- Inicio box categorias-->
 
         <section class="contenedorCaja">
         <div class="caja1">
@@ -93,6 +143,7 @@
         </div>
         </section>
 
+<!-- Fin box categorias-->
 
         <section>
         <div class="tituloProductoDestacado">
@@ -158,13 +209,11 @@
         <a href=""><img src="img/instagram.png" alt="red social instagram"></a>
         <a href=""><img src="img/facebook.png" alt="red social facebook"></a>
         <a href=""><img src="img/twitter.png" alt="red social twitter"></a>
-
-        <!--corregir espacio entre redes sociales y modalidad de pago-->
-
-        <h4>Medios de Pago</h4>
+       
+        <h4 class="tituloMedioPagoFooter">Medios de Pago</h4>
         <a href="img/Webpay.png"><img src="img/Webpay.png" alt="pago"></a>
     </div>
-        
+     
       <section>
       <div class="creditosFooter">
       <p>Sitio web realizado por Jasmin Chacon - Coderhouse 2024</p>
